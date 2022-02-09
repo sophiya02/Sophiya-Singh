@@ -436,10 +436,14 @@ a#logo {
   margin-top: 10px;
 }
 .next-section {
-  display: inline-block;
+  display: block;
+  width: 100%;
+  margin: auto;
+  /* margin-bottom: 0%; */
+  /* top:50%; */
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  /* left: 50%; */
+  /* transform: translateX(-50%); */
   bottom: 30px;
   cursor: pointer;
   -webkit-transition: all 0.5s ease;
@@ -598,17 +602,15 @@ a#logo {
 /*==============================================
 07. WORK BLOCK CSS
 ================================================*/
-.gallery-section {
-  padding: 1rem;
-  border-radius: 1rem;
-  text-align: center;
-  box-shadow: 0.5rem 0.5rem 1.5rem rgba(255, 255, 255, 0.102);
 
+.portfolio-item {
+  /* margin:1rem ; */
 }
 .portfolio-item img {
-  
-  width: 27rem;
+  display: block;
+  width: 25rem;
   height: 15rem;
+  margin: 1rem auto;
   overflow: hidden;
   position: relative;
   z-index: 9;
@@ -617,13 +619,14 @@ a#logo {
 .portfolio-item .thumb-inner {
   position: absolute;
   z-index: 99;
-  bottom: 0;
+  bottom: 1rem;
   text-align: center;
-  padding: 2px;
+  /* margin : 1rem; */
+  padding: 2remrem;
   background-color: rgba(0, 0, 0, 0.25);
-  width: 100%;
-  height: 60px;
-  border-radius: 10px;
+  width: 22rem;
+  height: 4rem;
+  border-radius: 1rempx;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
 
@@ -637,6 +640,7 @@ a#logo {
 }
 .portfolio-item .thumb-inner p {
   opacity: 0;
+  
   visibility: hidden;
   position: absolute;
   margin-bottom: 0px;
@@ -644,12 +648,13 @@ a#logo {
 .portfolio-item:hover .thumb-inner p {
   position: relative;
   opacity: 1;
+  /* padding: 2%; */
   visibility: visible;
   color: #4a4a4a;
 }
 .portfolio-item:hover .thumb-inner {
-  border-radius: 10px;
-  height: 100%;
+  border-radius: 1rem;
+  height: 15rem;
   background-color: rgba(250,250,250,0.9)
 }
 .portfolio-item:hover .thumb-inner h4 {
@@ -869,10 +874,11 @@ textarea.form-control {
     transform: rotateX(180deg);
     transition: .5s;
 }
+
 .card-back li {
   
   font-size:1.15rem;
-  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.705);
+  /* text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.705); */
   /* list-style: none; */
   color:white;
   text-align: left;
@@ -942,3 +948,78 @@ textarea.form-control {
   background-color: #fff;
   border-radius: 3px;
 } */
+
+
+/* project.html */
+/* .gallery-section {
+  padding: 1rem;
+  border-radius: 1rem;
+  text-align: center;
+  box-shadow: 0.5rem 0.5rem 1.5rem rgba(255, 255, 255, 0.102);
+
+} */
+.proportfolio-item {
+  padding : 1rem 0rem;
+}
+.proportfolio-item .prothumb {
+  transition: all ease-in 0.5s;
+}
+.proportfolio-item img {
+  display: block;
+  width: 28rem;
+  height: 13rem;
+  /* margin: 1rem auto; */
+  /* overflow: hidden; */
+  position: relative;
+  z-index: 9;
+  border-radius: 10px;
+}
+.proportfolio-item .prothumb-inner {
+  position: absolute;
+  z-index: 99;
+  /* left: 12rem; */
+  /* bottom:  1rem; */
+  bottom:1rem;
+  text-align: center;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.25);
+  /* width:28rem; */
+  width:28rem;
+  height: 5rem;
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.proportfolio-item .prothumb-inner h4 {
+  margin-bottom: 0;
+  font-size: 16px;
+  margin-top: 0px;
+}
+.proportfolio-item .prothumb-inner p {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  margin-bottom: 0px;
+}
+.proportfolio-item:hover .prothumb-inner p {
+  position: relative;
+  opacity: 1;
+  visibility: visible;
+  color: #4a4a4a;
+}
+.proportfolio-item:hover .prothumb {
+ transform: scale(1.01);
+}
+.proportfolio-item:hover .prothumb-inner {
+  border-radius: 10px;
+  height: 13rem;
+  background-color: rgba(250,250,250,0.9)
+}
+.proportfolio-item:hover .prothumb-inner h4 {
+   margin-top: 2 rem;
+  color: #1e1e1e;
+  margin-bottom: 20px;
+}
