@@ -431,6 +431,18 @@
 	.client-row {
 		padding-left: 0;
 	}
+	.proportfolio-item img {
+		width: 100%;
+	  }
+	  .proportfolio-item .prothumb-inner {
+		width:100%;
+	  }
+	  .portfolio-item img {
+		width: 100%;
+	  }
+	  .portfolio-item .thumb-inner {
+		width:100%;
+	  }
 }
 @media only screen and (max-width: 460px) {
 	h4 {
