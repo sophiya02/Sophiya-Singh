@@ -883,6 +883,10 @@ textarea.form-control {
   color:white;
   text-align: left;
 }
+.card-back li:hover {
+  
+  cursor: pointer;
+}
 .card-front i{
     display:block;
     margin: 0 auto 0;
@@ -1022,4 +1026,22 @@ textarea.form-control {
    margin-top: 2 rem;
   color: #1e1e1e;
   margin-bottom: 20px;
+}
+
+.hover-img-effect figure {
+  overflow: hidden ;
+  background: #000;
+}
+
+.hover-img-effect figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1.075);
+  opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover-img-effect figure:hover img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+  opacity: 0.5;
 }
