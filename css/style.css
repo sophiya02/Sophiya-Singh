@@ -51,6 +51,7 @@ body {
 img {
   border: 0;
   max-width: 100%;
+  object-fit: cover;
 }
 html {
   -ms-overflow-style: scrollbar;
@@ -963,7 +964,7 @@ textarea.form-control {
 
 } */
 .proportfolio-item {
-  padding : 1rem 0rem;
+  padding : 1rem 0.5rem;
 }
 .proportfolio-item .prothumb {
   transition: all ease-in 0.5s;
