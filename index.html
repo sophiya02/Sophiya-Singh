@@ -1,362 +1,344 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet"  />
 
     <title>Sophiya Singh</title>
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-    <link rel="stylesheet" type="text/css" href="css/fullpage.min.css">
-    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="css/fullpage.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <!-- <div id="video"> -->
     <canvas id="canvas"> </canvas>
-   
+        
     <div class="preloader">
-      
-        <div class="preloader-bounce">
-   
-            <span></span>   
-            <span></span>   
-            <span></span> 
-
-        </div>
-   
+      <div class="preloader-bounce">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </div>
 
+    <!-- Header -->
     <header id="header">
-        
-        <div class="container-fluid">
-        
-            <div class="navbar">
-        
-                <a href="#" id="logo" title="sophiya">Sophiya Singh</a>
-        
-                <div class="navigation-row">
-        
-                    <nav id="navigation">
-        
-                        <button type="button" class="navbar-toggle"> <i class="fa fa-bars"></i> </button>
-        
-                        <div class="nav-box navbar-collapse">
-        
-                            <ul class="navigation-menu nav navbar-nav navbars" id="nav">
-        
-                                <li data-menuanchor="slide01" class="active"><a href="#slide01">Home</a></li>
-                                <li data-menuanchor="slide02"><a href="#slide02">About Me</a></li>
-                                <li data-menuanchor="slide03"><a href="#slide03">Experience</a></li>
-                                <li data-menuanchor="slide04"><a href="projects.html">Projects</a></li>
-                                <li data-menuanchor="slide05"><a href="#slide05">My Skills</a></li>
-                                <li data-menuanchor="slide06"><a href="#slide06">My Works</a></li>                                
-                                <li data-menuanchor="slide07"><a href="#slide07">Contact Me</a></li>
-        
-                            </ul>
-        
-                        </div>      
-        
-                    </nav>
-        
-                </div>
-        
-            </div>
-        
+      <div class="container-fluid">
+        <div class="navbar">
+          <a href="#" id="logo" title="sophiya">Sophiya Singh</a>
+
+          <div class="navigation-row">
+            <nav id="navigation">
+              <button type="button" class="navbar-toggle">
+                <i class="fa fa-bars"></i>
+              </button>
+
+              <div class="nav-box navbar-collapse">
+                <ul class="navigation-menu nav navbar-nav navbars" id="nav">
+                  <li data-menuanchor="slide01" class="active">
+                    <a href="#slide01">Home</a>
+                  </li>
+                  <li data-menuanchor="slide02">
+                    <a href="#slide02">About</a>
+                  </li>
+                  <li data-menuanchor="slide03">
+                    <a href="#slide03">Experience</a>
+                  </li>
+                  <li data-menuanchor="slide04">
+                    <a href="projects.html">Projects</a>
+                  </li>
+                  <li data-menuanchor="slide05">
+                    <a href="#slide05">Skills</a>
+                  </li>
+                  <li data-menuanchor="slide06">
+                    <a href="#slide06">Works</a>
+                  </li>
+                  <li data-menuanchor="slide07">
+                    <a href="#slide07">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
         </div>
-    
+      </div>
     </header>
 
-    <video autoplay muted loop id="myVideo">
-        <!-- <source src="images/video-bg.mp4" type="video/mp4"> -->
-    </video>
-
     <div id="fullpage" class="fullpage-default">
-
-        <div class="section animated-row" data-section="slide01">
-         
-            <div class="section-inner">
-         
-                <div class="welcome-box">
-         
-                    <span class="welcome-first animate" data-animate="fadeInUp">Hi!, I am Sophiya welcome to</span>
-         
-                    <h1 class="welcome-title animate" data-animate="fadeInUp">My Portfolio</h1>
-         
-                    <p class="animate" data-animate="fadeInUp">Scroll down to know more about me and my works.</p>
-                    
-                </div>
-           
-            </div>
-           
-            <div class="scroll-down next-section animate" data-animate="fadeInUp">
-
-                <img src="images/mouse-scroll.png"alt="">
-                
-                <span>Scroll Down</span>
-            
-            </div>
-
+      <div class="section animated-row" data-section="slide01">
+        <div class="section-inner">
+          <div class="welcome-box">
+            <span class="welcome-first animate" data-animate="fadeInUp">Hi!, Welcome To My Portfolio, I Am</span>
+            <h1 class="welcome-title animate" data-animate="fadeInUp">Sophiya Singh</h1>
+            <p class="animate" data-animate="fadeInUp">Scroll down to know more about me and my works.</p>
+          </div>
         </div>
+        <div class="scroll-down next-section animate" data-animate="fadeInUp">
+          <img src="images/mouse-scroll.png" alt="" />
+          <span>Scroll Down</span>
+        </div>
+      </div>
 
-        <div class="section animated-row" data-section="slide02">
-        
-            <div class="section-inner">        
-        
-                <div class="about-section">
-        
-                    <div class="row justify-content-center">
-        
-                        <div class="col-lg-8 wide-col-laptop">
-        
-                            <div class="row">
-             
-                                <div class="col-md-6">
-             
-                                    <div class="about-contentbox">
-             
-                                        <div class="animate" data-animate="fadeInUp">
-             
-                                            <span>About Me</span>
-             
-                                            <h2>Who am i?</h2>
-             
-                                            <p>I am Junior year student at MMMUT, Gorakhpur, pursuing Bachelors in  Computer Science and Engineering. I am a problem solver, and loves to develop web application. My skills include MEAN stack development, coding in programming languages like C++, and Java. Apart from that I am very enthusiastic who loves to learn new tecnologies. </p>
-                                        
-                                        </div>
-                                        
-                                        <div class="facts-list owl-carousel">
-                                        
-                                            <div class="item animate" data-animate="fadeInUp">
-                                                <div class="counter-box">
-                                                    <i class="fa fa-graduation-cap counter-icon"
-                                                        aria-hidden="true"></i><span class="count-number">8.2
-                                                        CGPA</span>
-                                                    <a href="https://www.josephitesgkp.edu.in/">MMMUT, Gorakhpur</a>
-                                                    <br>
-                                                    Graduation
-                                                </div>
-                                        
-                                            </div>
-                                            <div class="item animate" data-animate="fadeInUp">
-                                                <div class="counter-box">
-                                                    <i class="fa fa-graduation-cap counter-icon"
-                                                        aria-hidden="true"></i><span class="count-number">94.2%</span>
-                                                    <a href="https://www.josephitesgkp.edu.in/">Academic Global</a>
-                                                    <br>
-                                                    Intermediate
-                                                </div>
-                                            </div>
-                                            <div class="item animate" data-animate="fadeInUp">
-                                                <div class="counter-box">
-                                                    <i class="fa fa-graduation-cap counter-icon"
-                                                        aria-hidden="true"></i><span class="count-number">94.6%</span>
-                                                    <a href="https://www.josephitesgkp.edu.in/">St. Joseph's
-                                                        School</a>
-                                                    <br>
-                                                    High School
-                                                </div>
-                                            </div>
-                                            <div class="item animate" data-animate="fadeInUp">
-
-                                                <div class="counter-box">
-                                                    <i class="fa fa-link counter-icon" aria-hidden="true"></i>
-                                                    <br>
-                                                    <span class="count-number"></span>
-                                                    Vist to all the Important
-                                                    accounts<a href="https://linktr.ee/sophiya02"
-                                                        target="_blank"> <b>Linktree </b></a>
-                                                </div>
-
-                                            </div>
-                                            <div class="item animate" data-animate="fadeInUp">
-
-                                                <div class="counter-box">
-                                                    <i class="fa fa-support counter-icon" aria-hidden="true"></i>
-                                                    <br>
-                                                    <span class="count-number"></span>
-                                                    Get to know more about me.
-                                                    <br><a
-                                                        href="https://drive.google.com/drive/folders/1mHJM40Pc31mftq9WG1r5ypd-ovEjM5ol"
-                                                        target="_blank"> <b>Resume</b></a>
-                                                </div>
-
-                                            </div>
-                                            <div class="item animate" data-animate="fadeInUp">
-
-                                                <div class="counter-box">
-                                                    <i class="fa fa-certificate counter-icon"
-                                                        aria-hidden="true"></i><span class="count-number">9</span>
-                                                    <a href="https://drive.google.com/drive/folders/1li_y9T-f6sy8vNx3o8__AGmqyhKl0Arp?usp=sharing"
-                                                        target="_blank"> <b>Certificates</b></a>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 hover-img-effect">
-                                    <div>
-                                        <figure class="about-img animate" data-animate="fadeInUp"><img
-                                                src="images/profile.jpg" class="rounded" alt=""></figure>
-                                    </div>
-                                </div>
-                            </div>
+      <div class="section animated-row" data-section="slide02">
+        <div class="section-inner">
+          <div class="about-section">
+            <div class="row justify-content-center">
+              <div class="col-lg-8 wide-col-laptop">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="about-contentbox">
+                      <div class="animate" data-animate="fadeInUp">
+                        <span>About Me</span>
+                        <h2>Who am I?</h2>
+                        <p>I'm a tech enthusiast passionate about constant growth
+                          and learning. Proficient in Problem Solving and
+                          Full-Stack development, I revel in crafting impactful
+                          applications. Currently delving into ML/AI, I'm eager
+                          to master these transformative fields and contribute
+                          to a brighter future. Energized by challenges and
+                          driven by learning, I firmly believe in pushing
+                          boundaries and leveraging creativity to innovate.</p>
+                      </div>
+                      <div class="facts-list owl-carousel">
+                        <div class="item animate" data-animate="fadeInUp">
+                          <div class="counter-box">
+                            <i class="fa fa-link counter-icon" aria-hidden="true" ></i>
+                            <br />
+                            <span class="count-number"></span>
+                            Vist to all the Important accounts
+                            <a href="https://linktr.ee/sophiya02" target="_blank" > <b>Linktree </b></a >
+                          </div>
                         </div>
+                        <div class="item animate" data-animate="fadeInUp">
+                          <div class="counter-box">
+                            <i class="fa fa-support counter-icon" aria-hidden="true" ></i>
+                            <br />
+                            <span class="count-number"></span>
+                            Get to know more about me.
+                            <br />
+                            <a href="https://drive.google.com/drive/folders/1mHJM40Pc31mftq9WG1r5ypd-ovEjM5ol" target="_blank" > <b>Resume</b></a >
+                          </div>
+                        </div>
+                        <div class="item animate" data-animate="fadeInUp">
+                          <div class="counter-box">                            
+                            <i class="fa fa-certificate counter-icon" aria-hidden="true" ></i >
+                            <br />
+                            <span class="count-number">12</span>
+                            <br />
+                            <a href="https://drive.google.com/drive/folders/1li_y9T-f6sy8vNx3o8__AGmqyhKl0Arp?usp=sharing" target="_blank" > <b>Certificates</b></a >
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="section animated-row" data-section="slide03">
-            <div class="section-inner">
-                <div class="row justify-content-center">
-                    <div class="col-md-8 wide-col-laptop">
-                        <div class="title-block animate" data-animate="fadeInUp">
-                            <span>Work Experience</span>
-                            <h2>All Of my Work Experience</h2>
-                        </div>
-                        <div class="col-md-8 offset-md-2">
-                            <div class="testimonials-section">
-                                <div class="testimonials-slider owl-carousel">
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="testimonial-item">
-                                            <div class="client-row">
-                                                <img src="images/sn.jpeg" class="rounded-circle" alt="profile 1">
-                                            </div>
-                                            <div class="testimonial-content">
-                                                <h4>Servicenow</h4>
-                                                <span>Upcoming Assco. Software Engineer</span>
-                                                <p>I will be joining Servicenow as an Assoc Software Engineer from June 2023</p>
-                                                
-                                            </div>                                           
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="testimonial-item">
-                                            <div class="client-row">
-                                                <img src="images/awt.jpeg" class="rounded-circle" alt="profile 2">
-                                            </div>
-                                            <div class="testimonial-content">
-                                                <h4>Adwancedware Technologies Pvt Limited</h4>
-                                                <span>Frontend Developer- Angular</span>
-                                                <p>- I have Worked on the Angular PWA project. I Used Angular Reactive forms, Material Design, Mat Typography,
-                                                    ChartsJs, Monaco Editors. I built the whole app from scratch.
-                                                    - Using RxJs to write subscriptions, lazy loading, and virtual scrolls to enhance the performance of the application.
-                                                    - Written API calls for CRUD Operation for offline and Online functioning of the web app. Maintained clean and
-                                                    well-designed code throughout the internship period. A Major Achievement was to write an autofill service that
-                                                    was used by all the team members, in their assigned project</p>
-                                                
-                                            </div>                                           
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="testimonial-item">
-                                            <div class="client-row">
-                                                <img src="images/un.jpeg" class="rounded-circle" alt="profile 3">
-                                            </div>
-                                            <div class="testimonial-content">
-                                                <h4>Unacademy</h4>
-                                                <span>DSA - Educator</span>
-                                                <p>I have been working as Gate(CS-IT) Educator at Unacademy focusing on the Subject Data Structures and
-                                                    Algorithms. I have taken 25+ hrs live sessions.
-                                                    </p>
-                                                
-                                            </div>                                           
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="testimonial-item">
-                                            <div class="client-row">
-                                                <img src="images/chegg.jpeg" class="rounded-circle" alt="profile 3">
-                                            </div>
-                                            <div class="testimonial-content">
-                                                <h4>Chegg</h4>
-                                                <span>SME - Computer Science</span>
-                                                <p>I have solved 20+ questions related to Computer Science Subjects.Main subjects were Data structures and
-                                                    algorithms, Design and analysis of Algorithms, Theory of computation, Discrete Mathematics, Computer
-                                                    Organization and Architecture, Operating Systems
-                                                    - The solution contains step-by-step explanations along with diagrams or even the working code in C++/JAVA</p>
-                                                
-                                            </div>                                           
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                  </div>
+                  <div class="col-md-6 hover-img-effect">
+                    <div>
+                      <figure class="about-img animate" data-animate="fadeInUp">
+                        <img src="images/profile.jpg" class="rounded" alt="" />
+                      </figure>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
 
-        <div class="section animated-row" data-section="slide04">
-            <div class="section-inner">
-                <div class="row justify-content-center">
-                    <div class="col-md-8 wide-col-laptop">
-                        <div class="title-block animate" data-animate="fadeInUp">
-                            <span>My Projects</span>
-                            <h2>What I’ve done?</h2>
+      <div class="section animated-row" data-section="slide03">
+        <div class="section-inner">
+          <div class="row justify-content-center">
+            <div class="col-md-8 wide-col-laptop">
+              <div class="title-block animate" data-animate="fadeInUp">
+                <span>Work Experience</span>
+                <h2>All Of my Work Experience</h2>
+              </div>
+              <div class="col-md-8 offset-md-2">
+                <div class="testimonials-section">
+                  <div class="testimonials-slider owl-carousel">
+                    <div class="item animate" data-animate="fadeInUp">
+                      <div class="testimonial-item">
+                        <div class="client-row">
+                          <img
+                            src="images/sn.jpeg"
+                            class="rounded-circle"
+                            alt="profile 1"
+                          />
                         </div>
-                        <div class="gallery-section">
-                            <div class="gallery-list owl-carousel">
-                                <div class="item animate" data-animate="fadeInUp">
-                                    <a href="https://sophiya02.github.io/JS-APIs/">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/jsapi.png" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>JS API</h4>
-                                                <p>I have used JavaScript Fetch Api to get data from NASA and WEATHER
-                                                    api and display it.</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="item animate" data-animate="fadeInUp">
-                                    <a href="https://sophiya02.github.io/JSEvents/">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/login.png" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>Login and Registration</h4>
-                                                <p>I have used JavaScript to take user input and validate the the
-                                                    form inputs.</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="item animate" data-animate="fadeInUp">
-                                    <a href="https://sophiya02.github.io/JSEvents/">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/calci.png" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>Calculator</h4>
-                                                <p>It is a working Calculator made using HTML, CSS and JavaScript.</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <!-- <div class="item animate" data-animate="fadeInUp">
+                        <div class="testimonial-content">
+                          <h4>Servicenow</h4>
+                          <span>Upcoming Assco. Software Engineer</span>
+                          <p>
+                            I will be joining Servicenow as an Assoc Software
+                            Engineer from June 2023
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item animate" data-animate="fadeInUp">
+                      <div class="testimonial-item">
+                        <div class="client-row">
+                          <img
+                            src="images/awt.jpeg"
+                            class="rounded-circle"
+                            alt="profile 2"
+                          />
+                        </div>
+                        <div class="testimonial-content">
+                          <h4>Adwancedware Technologies Pvt Limited</h4>
+                          <span>Frontend Developer- Angular</span>
+                          <p>
+                            - I have Worked on the Angular PWA project. I Used
+                            Angular Reactive forms, Material Design, Mat
+                            Typography, ChartsJs, Monaco Editors. I built the
+                            whole app from scratch. - Using RxJs to write
+                            subscriptions, lazy loading, and virtual scrolls to
+                            enhance the performance of the application. -
+                            Written API calls for CRUD Operation for offline and
+                            Online functioning of the web app. Maintained clean
+                            and well-designed code throughout the internship
+                            period. A Major Achievement was to write an autofill
+                            service that was used by all the team members, in
+                            their assigned project
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item animate" data-animate="fadeInUp">
+                      <div class="testimonial-item">
+                        <div class="client-row">
+                          <img
+                            src="images/un.jpeg"
+                            class="rounded-circle"
+                            alt="profile 3"
+                          />
+                        </div>
+                        <div class="testimonial-content">
+                          <h4>Unacademy</h4>
+                          <span>DSA - Educator</span>
+                          <p>
+                            I have been working as Gate(CS-IT) Educator at
+                            Unacademy focusing on the Subject Data Structures
+                            and Algorithms. I have taken 25+ hrs live sessions.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item animate" data-animate="fadeInUp">
+                      <div class="testimonial-item">
+                        <div class="client-row">
+                          <img
+                            src="images/chegg.jpeg"
+                            class="rounded-circle"
+                            alt="profile 3"
+                          />
+                        </div>
+                        <div class="testimonial-content">
+                          <h4>Chegg</h4>
+                          <span>SME - Computer Science</span>
+                          <p>
+                            I have solved 20+ questions related to Computer
+                            Science Subjects.Main subjects were Data structures
+                            and algorithms, Design and analysis of Algorithms,
+                            Theory of computation, Discrete Mathematics,
+                            Computer Organization and Architecture, Operating
+                            Systems - The solution contains step-by-step
+                            explanations along with diagrams or even the working
+                            code in C++/JAVA
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section animated-row" data-section="slide04">
+        <div class="section-inner">
+          <div class="row justify-content-center">
+            <div class="col-md-8 wide-col-laptop">
+              <div class="title-block animate" data-animate="fadeInUp">
+                <span>My Projects</span>
+                <h2>What I’ve done?</h2>
+              </div>
+              <div class="gallery-section">
+                <div class="gallery-list owl-carousel">
+                  <div class="item animate" data-animate="fadeInUp">
+                    <a href="https://sophiya02.github.io/JS-APIs/">
+                      <div class="portfolio-item">
+                        <div class="thumb">
+                          <img src="images/jsapi.png" alt="" />
+                        </div>
+                        <div
+                          class="thumb-inner animate"
+                          data-animate="fadeInUp"
+                        >
+                          <h4>JS API</h4>
+                          <p>
+                            I have used JavaScript Fetch Api to get data from
+                            NASA and WEATHER api and display it.
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="item animate" data-animate="fadeInUp">
+                    <a href="https://sophiya02.github.io/JSEvents/">
+                      <div class="portfolio-item">
+                        <div class="thumb">
+                          <img src="images/login.png" alt="" />
+                        </div>
+                        <div
+                          class="thumb-inner animate"
+                          data-animate="fadeInUp"
+                        >
+                          <h4>Login and Registration</h4>
+                          <p>
+                            I have used JavaScript to take user input and
+                            validate the the form inputs.
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="item animate" data-animate="fadeInUp">
+                    <a href="https://sophiya02.github.io/JSEvents/">
+                      <div class="portfolio-item">
+                        <div class="thumb">
+                          <img src="images/calci.png" alt="" />
+                        </div>
+                        <div
+                          class="thumb-inner animate"
+                          data-animate="fadeInUp"
+                        >
+                          <h4>Calculator</h4>
+                          <p>
+                            It is a working Calculator made using HTML, CSS and
+                            JavaScript.
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <!-- <div class="item animate" data-animate="fadeInUp">
                                        <a href="https://sophiya02.github.io/JSEvents/">
                                         <div class="portfolio-item">
                                             <div class="thumb">
@@ -369,34 +351,45 @@
                                          </div>
                                          </a>
                                     </div> -->
-                                <div class="item animate" data-animate="fadeInUp">
-                                    <a href="https://sophiya02.github.io/Codesmashers-CES/">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/codesmasher.png" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>Codesmasher</h4>
-                                                <p>Template Website for Codesmasher event organised by CES,MMMUT.</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="item animate" data-animate="fadeInUp">
-                                    <a href="https://arpit456jain.github.io/CES-official/">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/ces.png" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>CES</h4>
-                                                <p>I have contribute to the official website of CES, MMMUT. Tech stack
-                                                    used: HTML, CSS, Bootstrap, JS</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <!-- <div class="item animate" data-animate="fadeInUp">
+                  <div class="item animate" data-animate="fadeInUp">
+                    <a href="https://sophiya02.github.io/Codesmashers-CES/">
+                      <div class="portfolio-item">
+                        <div class="thumb">
+                          <img src="images/codesmasher.png" alt="" />
+                        </div>
+                        <div
+                          class="thumb-inner animate"
+                          data-animate="fadeInUp"
+                        >
+                          <h4>Codesmasher</h4>
+                          <p>
+                            Template Website for Codesmasher event organised by
+                            CES,MMMUT.
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="item animate" data-animate="fadeInUp">
+                    <a href="https://arpit456jain.github.io/CES-official/">
+                      <div class="portfolio-item">
+                        <div class="thumb">
+                          <img src="images/ces.png" alt="" />
+                        </div>
+                        <div
+                          class="thumb-inner animate"
+                          data-animate="fadeInUp"
+                        >
+                          <h4>CES</h4>
+                          <p>
+                            I have contribute to the official website of CES,
+                            MMMUT. Tech stack used: HTML, CSS, Bootstrap, JS
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <!-- <div class="item animate" data-animate="fadeInUp">
                                        <a href="https://sophiya02.github.io/JSEvents/">
                                         <div class="portfolio-item">
                                             <div class="thumb">
@@ -411,7 +404,7 @@
                                         </div>
                                         </a>
                                     </div> -->
-                                <!-- <div class="item animate" data-animate="fadeInUp">
+                  <!-- <div class="item animate" data-animate="fadeInUp">
                                        <a href="https://sophiya02.github.io/JSEvents/">
                                         <div class="portfolio-item">
                                             <div class="thumb">
@@ -424,264 +417,349 @@
                                          </div>
                                          </a>
                                     </div> -->
-                                <div class="item animate" data-animate="fadeInUp">
-                                       <a href="projects.html">
-                                        <div class="portfolio-item" style="width:100%; height: 100%; display:flex; justify-content: center; align-items: center;">
-                                                
-                                            
-                                            <p>Link to All my projects<i class="fa fa-arrow-right fa-lg"></i></p>
-                                        
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
+                  <div class="item animate" data-animate="fadeInUp">
+                    <a href="projects.html">
+                      <div
+                        class="portfolio-item"
+                        style="
+                          width: 100%;
+                          height: 100%;
+                          display: flex;
+                          justify-content: center;
+                          align-items: center;
+                        "
+                      >
+                        <p>
+                          Link to All my projects<i
+                            class="fa fa-arrow-right fa-lg"
+                          ></i>
+                        </p>
+                      </div>
+                    </a>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
 
-        <div class="section animated-row" data-section="slide05">
-            <div class="section-inner">
-                <div class="row justify-content-center">
-                    <div class="col-md-7 wide-col-laptop">
-                        <div class="title-block animate" data-animate="fadeInUp">
-                            <span>My Skills</span>
-                            <h2>What i’m good at?</h2>
-                        </div>
-                        <div class="skills-row animate" data-animate="fadeInDown">
-                            <div class="row skills">
-                                
-                                <div class="item animate" data-animate="fadeInUp">
-                                    <div class="card-front service-box"><i class="fa fa-language"
-                                            aria-hidden="true"></i>
-                                        <br>
-                                        <h6>Programming Languages <span>&</span> Databases</h6>
-                                    </div>
-                                    <div class="card-back">
-                                        <ul>
-                                            <li>Java</li>
-                                            <li>C++/C</li>
-                                            <li>Javascript</li>
-                                            <li>SQL/MySQL</li>
-                                            <li>MongoDB</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="item animate" data-animate="fadeInUp">
-                                    <div class="card-front service-box"><i class="fa fa-connectdevelop"
-                                            aria-hidden="true"></i>
-                                        <br>
-                                        <h6>Frameworks/ libraries</h6>
-                                    </div>
-                                    <div class="card-back">
-                                        <ul>
-                                            <li>Angular JS</li>
-                                            <li>Node JS</li>
-                                            <li>Express JS</li>
-                                            <li>RxJs</li>
-                                            <li>Three JS</li>
-                                            <li>Bootstrap</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="item animate" data-animate="fadeInUp">
-                                    <div class="card-front service-box"><i class="fa fa-building"
-                                            aria-hidden="true"></i>
-                                        <br>
-                                        <h6>Course Work</h6>
-                                    </div>
-                                    <div class="card-back">
-                                        <ul>
-                                            <li title="Data Structures and Algorithm">DSA</li>
-                                            <li title="Operating System">OS</li>
-                                            <li title="Computer organisation and Architecture">COA</li>
-                                            <li title="Digital Logic and Design">DLD</li>
-                                            <li title="Theory of Computation">TOC</li>
-                                            <li title="Computer Networks">CN</li>
-                                            <li title="Compiler Design">CD</li>
-                                            <li title="Database Management System">DBMS</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="item animate" data-animate="fadeInUp">
-                                    <div class="card-front service-box"><i class="fa fa-wrench" aria-hidden="true"></i>
-                                        <br>
-                                        <h6>Tools</h6>
-                                    </div>
-                                    <div class="card-back">
-                                        <ul>
-                                            <li>Git and Github</li>
-                                            <li>Illustrator</li>
-                                            <li>Photoshop</li>
-                                            <li>Blender</li>
-                                            <li>Kdenlive</li>
-                                            <li>Canva</li>
-                                            <li>Figma</li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
+      <div class="section animated-row" data-section="slide05">
+        <div class="section-inner">
+          <div class="row justify-content-center">
+            <div class="col-md-7 wide-col-laptop">
+              <div class="title-block animate" data-animate="fadeInUp">
+                <span>My Skills</span>
+                <h2>What i’m good at?</h2>
+              </div>
+              <div class="skills-row animate" data-animate="fadeInDown">
+                <div class="row skills">
+                  <div class="item animate" data-animate="fadeInUp">
+                    <div class="card-front service-box">
+                      <i class="fa fa-language" aria-hidden="true"></i>
+                      <br />
+                      <h6>Programming Languages <span>&</span> Databases</h6>
                     </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="section animated-row" data-section="slide06">
-            <div class="section-inner">
-                <div class="row justify-content-center">
-                    <div class="col-md-8 wide-col-laptop">
-                        <div class="title-block animate" data-animate="fadeInUp">
-                            <span>Extra Curricular Activities</span>
-                            <h2>What I Do?</h2>
-                        </div>
-                        <div class="services-section">
-                            <div class="services-list owl-carousel">
-
-                                <div class="item animate" data-animate="fadeInUp">
-                                    <div class="service-box">
-                                        <span class="service-icon"><i class="fa fa-bookmark"
-                                                aria-hidden="true"></i></span>
-                                        <h3>Mentor</h3>
-                                        <p>I am an educator at Unacademy and have taken session on Introduction to Open Source contribution and Git
-                                            and Github, in an event organised by CES,MMMUT. </p>
-                                    </div>
-                                </div>
-                                <div class="item animate" data-animate="fadeInUp">
-                                    <div class="service-box">
-                                        <span class="service-icon"><i class="fa fa-book" aria-hidden="true"></i></span>
-                                        <h3>SME (Computer Science)</h3>
-                                        <p>I am a Subject Matter Expert on Chegg, solving doubts in Computer Science
-                                            Subjects, asked by various students all over the world</p>
-                                    </div>
-                                </div>
-                                <div class="item animate" data-animate="fadeInUp">
-                                    <div class="service-box">
-                                        <span class="service-icon"><i class="fa fa-file-word-o"
-                                                aria-hidden="true"></i></span>
-                                        <h3>Problem Setter</h3>
-                                        <p>I have worked as a problem setter for various coding events organised by
-                                            Codechef MMMUT Chapter and CES, MMMUT. </p>
-                                    </div>
-                                </div>
-                                
-                                <div class="item animate" data-animate="fadeInUp">
-                                    <div class="service-box">
-                                        <span class="service-icon"><i class="fa fa-connectdevelop"
-                                                aria-hidden="true"></i></span>
-                                        <h3>Open Source Contributor</h3>
-                                        <p>I have been part of GWOC21, which was an 3 month open source contribution
-                                            program. I have contributed content in web devlopment and competitive
-                                            programming domain. </p>
-                                    </div>
-                                </div>
-                                <div class="item animate" data-animate="fadeInUp">
-                                    <div class="service-box">
-                                        <span class="service-icon"><i class="fa fa-image" aria-hidden="true"></i></span>
-                                        <h3>Graphic Designer</h3>
-                                        <p>I have made several posters and illustrations for various events
-                                            organised by cultural society, using Photoshop and Illustrator.</p>
-                                    </div>
-                                </div>
-                                <div class="item animate" data-animate="fadeInUp">
-                                    <div class="service-box">
-                                        <span class="service-icon"><i class="fa fa-camera"
-                                                aria-hidden="true"></i></span>
-                                        <h3>Photography</h3>
-                                        <p>I have a keen interest in capturing moments in my camera.</p>
-                                    </div>
-                                </div>
-                                <div class="item animate" data-animate="fadeInUp">
-                                    <div class="service-box">
-                                        <span class="service-icon"><i class="fa fa-globe" aria-hidden="true"></i></span>
-                                        <h3>3d model</h3>
-                                        <p>I love to create 3d models, using Blender and ThreeJS. </p>
-                                    </div>
-                                </div>
-
-                                <div class="item animate" data-animate="fadeInUp">
-                                    <div class="service-box">
-                                        <span class="service-icon"><i class="fa fa-leanpub" aria-hidden="true"></i></span>
-                                        <h3>Present</h3>
-                                        <p>Presetnly I am focusing on full stack skills and have started to learn DevOps</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="card-back">
+                      <ul>
+                        <li>Javascript</li>
+                        <li>Typescript</li>
+                        <li>Java</li>
+                        <li>C++/C</li>
+                        <li>Python</li>
+                        <li>SQL/MySQL</li>
+                        <li>MongoDB</li>
+                      </ul>
                     </div>
-                </div>
-            </div>
-        </div>
-
-        
-
-        <div class="section animated-row" data-section="slide07">
-            <div class="section-inner">
-                <div class="row justify-content-center">
-                    <div class="col-md-7 wide-col-laptop">
-                        <div class="title-block animate" data-animate="fadeInUp">
-                            <span>Contact</span>
-                            <h2>Get In Touch!</h2>
-                        </div>
-                        <div class="contact-section">
-                            <div class="row">
-                                <div class="col-md-6 animate" data-animate="fadeInUp">
-                                    <div class="contact-box">
-                                        <div class="contact-row">
-                                            <i class="fa fa-map-marker"></i> Gorakhpur, Uttar Pradesh, India
-                                        </div>
-                                        <div class="contact-row">
-                                            <i class="fa fa-phone"></i> 8840683268
-                                        </div>
-                                        <div class="contact-row">
-                                            <i class="fa fa-envelope"></i> sophiya.singh2002@gmail.com
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 animate" data-animate="fadeInUp">
-                                    <form id="contact_me" method="POST"
-                                        action="https://sheetdb.io/api/v1/e7etufoso5d1h">
-                                        <div class="input-field">
-                                            <input type="text" class="form-control" name="data[name]" id="name" required
-                                                placeholder="Name">
-                                        </div>
-                                        <div class="input-field">
-                                            <input type="email" class="form-control" name="data[email]" id="email"
-                                                required placeholder="Email">
-                                        </div>
-                                        <div class="input-field">
-                                            <textarea class="form-control" name="data[message]" id="message" required
-                                                placeholder="Message"></textarea>
-                                        </div>
-                                        <button class="btn" type="submit">Submit</button>
-                                    </form>
-                                    <div id="form-messages" class="mt-3"></div>
-                                </div>
-                            </div>
-                        </div>
+                  </div>
+                  <div class="item animate" data-animate="fadeInUp">
+                    <div class="card-front service-box">
+                      <i class="fa fa-connectdevelop" aria-hidden="true"></i>
+                      <br />
+                      <h6>Frameworks/ libraries</h6>
                     </div>
+                    <div class="card-back">
+                      <ul>
+                        <li>Angular JS</li>
+                        <li>Node JS</li>
+                        <li>Express JS</li>
+                        <li>Numpy</li>
+                        <li>Pandas</li>
+                        <li>Matplotlib</li>
+                        <li>Pytorch</li>
+                        <li>RxJs</li>
+                        <li>Three JS</li>
+                        <li>Bootstrap</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="item animate" data-animate="fadeInUp">
+                    <div class="card-front service-box">
+                      <i class="fa fa-building" aria-hidden="true"></i>
+                      <br />
+                      <h6>Course Work</h6>
+                    </div>
+                    <div class="card-back">
+                      <ul>
+                        <li title="Data Structures and Algorithm">DSA</li>
+                        <li title="Operating System">OS</li>
+                        <li title="Computer organisation and Architecture">
+                          COA
+                        </li>
+                        <li title="Digital Logic and Design">DLD</li>
+                        <li title="Theory of Computation">TOC</li>
+                        <li title="Computer Networks">CN</li>
+                        <li title="Compiler Design">CD</li>
+                        <li title="Database Management System">DBMS</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="item animate" data-animate="fadeInUp">
+                    <div class="card-front service-box">
+                      <i class="fa fa-wrench" aria-hidden="true"></i>
+                      <br />
+                      <h6>Tools</h6>
+                    </div>
+                    <div class="card-back">
+                      <ul>
+                        <li>Git and Github</li>
+                        <li>Illustrator</li>
+                        <li>Photoshop</li>
+                        <li>Blender</li>
+                        <li>Canva</li>
+                        <li>Figma</li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
 
+      <div class="section animated-row" data-section="slide06">
+        <div class="section-inner">
+          <div class="row justify-content-center">
+            <div class="col-md-8 wide-col-laptop">
+              <div class="title-block animate" data-animate="fadeInUp">
+                <span>Extra Curricular Activities</span>
+                <h2>What I Do?</h2>
+              </div>
+              <div class="services-section">
+                <div class="services-list owl-carousel">
+                  <div class="item animate" data-animate="fadeInUp">
+                    <div class="service-box">
+                      <span class="service-icon"
+                        ><i class="fa fa-bookmark" aria-hidden="true"></i
+                      ></span>
+                      <h3>Mentor</h3>
+                      <p>
+                        I am an educator at Unacademy and have taken session on
+                        Introduction to Open Source contribution and Git and
+                        Github, in an event organised by CES,MMMUT.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="item animate" data-animate="fadeInUp">
+                    <div class="service-box">
+                      <span class="service-icon"
+                        ><i class="fa fa-book" aria-hidden="true"></i
+                      ></span>
+                      <h3>SME (Computer Science)</h3>
+                      <p>
+                        I am a Subject Matter Expert on Chegg, solving doubts in
+                        Computer Science Subjects, asked by various students all
+                        over the world
+                      </p>
+                    </div>
+                  </div>
+                  <div class="item animate" data-animate="fadeInUp">
+                    <div class="service-box">
+                      <span class="service-icon"
+                        ><i class="fa fa-file-word-o" aria-hidden="true"></i
+                      ></span>
+                      <h3>Problem Setter</h3>
+                      <p>
+                        I have worked as a problem setter for various coding
+                        events organised by Codechef MMMUT Chapter and CES,
+                        MMMUT.
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- <div class="item animate" data-animate="fadeInUp">
+                    <div class="service-box">
+                      <span class="service-icon"
+                        ><i class="fa fa-connectdevelop" aria-hidden="true"></i
+                      ></span>
+                      <h3>Open Source Contributor</h3>
+                      <p>
+                        I have been part of GWOC21, which was an 3 month open
+                        source contribution program. I have contributed content
+                        in web devlopment and competitive programming domain.
+                      </p>
+                    </div>
+                  </div> -->
+                  <div class="item animate" data-animate="fadeInUp">
+                    <div class="service-box">
+                      <span class="service-icon"
+                        ><i class="fa fa-image" aria-hidden="true"></i
+                      ></span>
+                      <h3>Graphic Designer</h3>
+                      <p>
+                        I have made several posters and illustrations for
+                        various events organised by cultural society, using
+                        Photoshop and Illustrator.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="item animate" data-animate="fadeInUp">
+                    <div class="service-box">
+                      <span class="service-icon"
+                        ><i class="fa fa-camera" aria-hidden="true"></i
+                      ></span>
+                      <h3>Photography</h3>
+                      <p>
+                        Passionate about capturing nuanced moments and exploring
+                        unique perspectives, whether in nature, wildlife,
+                        portraits, or any subject, my fascination lies in the
+                        captivating realms of the moon and star treks through my
+                        lens.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="item animate" data-animate="fadeInUp">
+                    <div class="service-box">
+                      <span class="service-icon"
+                        ><i class="fa fa-paint-brush" aria-hidden="true"></i
+                      ></span>
+                      <h3>Hobbies</h3>
+                      <p>
+                        Engaging in diverse hobbies like therapeutic painting
+                        and cooking, exploring cuisines, and specializing in
+                        Madhubani, Warli, and Mandala art, brings me peace and
+                        self-reflection.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="item animate" data-animate="fadeInUp">
+                    <div class="service-box">
+                      <span class="service-icon"
+                        ><i class="fa fa-gamepad" aria-hidden="true"></i
+                      ></span>
+                      <h3>Games</h3>
+                      <p>
+                        I led my university football team to victory in the
+                        Inter-Batch competition and enjoy various sports like
+                        basketball, cricket, badminton, table tennis, and
+                        billiards. I also find immense pleasure in practicing
+                        yoga.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="item animate" data-animate="fadeInUp">
+                    <div class="service-box">
+                      <span class="service-icon"
+                        ><i class="fa fa-globe" aria-hidden="true"></i
+                      ></span>
+                      <h3>3d model</h3>
+                      <p>
+                        Spending time with my younger brother rekindled my
+                        interest in animation, and during my freshman year
+                        (2020-21), I delved into 3D animation using Blender,
+                        eager to resume exploring this creative world
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section animated-row" data-section="slide07">
+        <div class="section-inner">
+          <div class="row justify-content-center">
+            <div class="col-md-7 wide-col-laptop">
+              <div class="title-block animate" data-animate="fadeInUp">
+                <span>Contact</span>
+                <h2>Get In Touch!</h2>
+              </div>
+              <div class="contact-section">
+                <div class="row">
+                  <div class="col-md-6 animate" data-animate="fadeInUp">
+                    <div class="contact-box">
+                      <div class="contact-row">
+                        <i class="fa fa-map-marker"></i> Gorakhpur, Uttar
+                        Pradesh, India
+                      </div>
+                      <div class="contact-row">
+                        <i class="fa fa-phone"></i> 8840683268
+                      </div>
+                      <div class="contact-row">
+                        <i class="fa fa-envelope"></i>
+                        sophiya.singh2002@gmail.com
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 animate" data-animate="fadeInUp">
+                    <form
+                      id="contact_me"
+                      method="POST"
+                      action="https://sheetdb.io/api/v1/m1cckydahrk5j"
+                    >
+                      <div class="input-field">
+                        <input
+                          type="text"
+                          class="form-control"
+                          name="data[name]"
+                          id="name"
+                          required
+                          placeholder="Name"
+                        />
+                      </div>
+                      <div class="input-field">
+                        <input
+                          type="email"
+                          class="form-control"
+                          name="data[email]"
+                          id="email"
+                          required
+                          placeholder="Email"
+                        />
+                      </div>
+                      <div class="input-field">
+                        <textarea
+                          class="form-control"
+                          name="data[message]"
+                          id="message"
+                          required
+                          placeholder="Message"
+                        ></textarea>
+                      </div>
+                      <button class="btn" type="submit">Submit</button>
+                    </form>
+                    <div id="form-messages" class="mt-3"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div id="social-icons">
-       
-        <div class="text-right">
-       
-            <ul class="social-icons">
-                
-                <li><a href="https://www.linkedin.com/in/sophiya02/" title="Linkedin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="https://linktr.ee/sophiya02" title="Linktree" target="_blank"><i class="fa fa-link"></i></a></li>
-                <li><a href="https://www.youtube.com/channel/UC04sROXliqTbi6_MwWn2gvw" title="Youtube" target="_blank"><i class="fa fa-youtube"></i></a></li>
-       
-            </ul>
-       
-        </div>
+      <div class="text-right">
+        <ul class="social-icons">
+          <li> <a href="https://www.linkedin.com/in/sophiya02/"title="Linkedin"target="_blank"><i class="fa fa-linkedin"></i></a></li>
+          <li> <a href="https://linktr.ee/sophiya02"  title="Linktree" target="_blank" ><i class="fa fa-link"></i ></a></li>
+          <li> <a href="https://www.youtube.com/channel/UC04sROXliqTbi6_MwWn2gvw" title="Youtube" target="_blank" ><i class="fa fa-youtube"></i ></a></li>
+        </ul>
+      </div>
     </div>
 
     <script src="js/jquery.js"></script>
@@ -693,7 +771,5 @@
     <script src="js/form.js"></script>
     <script src="js/custom.js"></script>
     <script src="js/bg.js"></script>
-
-</body>
-
+  </body>
 </html>
